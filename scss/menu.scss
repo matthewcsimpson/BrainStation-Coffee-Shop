@@ -1,0 +1,108 @@
+@use './partials/global' as *;
+
+.page_header {
+  background: url(../assets/images/coffee-circle.jpg) no-repeat center;
+  background-size: cover;
+  height: 35.9375rem;
+  width: 37.5rem;
+  min-width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page_header__title {
+  background-color: $graphite-gray;
+  color: $cs-white;
+  min-width: 17.5rem;
+  max-width: 18.75rem;
+  min-height: 11.25rem;
+  max-width: 12.5rem;
+  text-align: center;
+  position: relative;
+  left: 10rem;
+  top: 1.25rem;
+}
+
+.page_header__title--outline {
+  border: .3125rem solid $nitro-blue;
+  min-width: 17.5rem;
+  max-width: 18.75rem;
+  min-height: 11.25rem;
+  max-width: 12.5rem;
+  position: relative;
+  transform: translatex(-50%);
+}
+
+.page_header__heading {
+  text-transform: uppercase;
+}
+
+.page_nav {
+  background-color: $graphite-gray;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 3.75rem;
+  max-height: 5rem;
+  text-align: center;
+}
+
+.page_nav__list {
+  display: inline-block;
+}
+
+.page_nav__listitem {
+  display: inline-block;
+  border-left: .3125rem solid $nitro-blue;
+  padding: 0.25rem 1.25rem;
+  margin: 1rem auto;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.page_nav__link {
+  color: $cs-white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0rem 1.25rem;
+}
+
+.menu_section {
+  padding: 1.25rem;
+}
+
+.menu_section--bg-pink {
+  background-color: $background-color;
+}
+
+.menu-section--bg-gray {
+  background-color: $background-gray;
+}
+
+/* .menu_section__itemcard {} */
+
+.menu_section__cat_heading {
+  text-align: center;
+  padding: 0rem 0rem 1.25rem 0rem;
+}
+
+.menu_section__item_heading {
+  text-align: center;
+  padding: 1.25rem 0rem 1.25rem;
+}
+
+.menu_section__item_desc {
+  width: 40%;
+  padding: 0.5rem 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic;
+  text-align: center;
+}
+
+.menu_section__item_desc--price {
+  color: $nitro-blue;
+  text-align: center;
+  font-style: normal;
+}

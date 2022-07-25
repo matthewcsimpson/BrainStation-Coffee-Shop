@@ -1,0 +1,143 @@
+/*
+Matthew Simpson - July 2022 
+*/
+
+$background-color: #fff0ed;
+$background-gray: #f7f7f7;
+$box-shadow: rgba(0, 0, 0, 0.25);
+$nitro-blue: #5bacc3;
+$graphite-gray: #393939;
+$cs-white: #fff;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+h1,
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 2.062rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+/* navigation  */
+
+.nav {
+  background-color: $background-color;
+  padding: 1.25rem;
+}
+
+.nav__logo {
+  display: inline;
+}
+
+.nav__heading {
+  display: inline;
+  margin-right: 1.25rem;
+}
+
+.nav__heading--lowercase {
+  text-transform: lowercase;
+}
+
+.nav__list {
+  display: inline;
+}
+
+.nav__listitem {
+  display: inline;
+  font-size: 1.3125rem;
+  margin: 0rem 1.25rem;
+}
+
+.nav__link {
+  color: $graphite-gray;
+  text-decoration: none;
+  text-transform: uppercase;
+  &--shopnow{
+    color: $nitro-blue;
+  }
+}
+
+/* button  */
+
+
+.button {
+  height: 2.5rem;
+  min-width: 11.25rem;
+  max-width: 13.75rem;
+  font-size: 1.312rem;
+  padding: 0.75rem 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &--text{
+    text-decoration: none;
+    color: $cs-white;
+    text-transform: uppercase;
+  }
+  &--bg {
+    background-color: $nitro-blue;
+    transform: translateY(50%);
+    position: relative;
+ 
+  }
+  &--outline{
+    background-color: none;
+    border: .125rem solid $graphite-gray;
+    position: relative;
+    left: -5px;
+    top: -5px;
+    transform: translateY(-50%);
+    &:active{
+      position: relative;
+      left: 0;
+      top:0;
+    }
+  }
+}
+
+
+
+// .button {
+//   color: $cs-white;
+//   text-decoration: none;
+//   text-transform: uppercase;
+//   font-size: 1.312rem;
+//   padding: 0.75rem 2.5rem;
+//   min-width: 11.25rem;
+//   max-width: 13.75rem;
+//   height: 2.5rem;
+//   position: relative;
+//   &--bg {
+//     background-color: $nitro-blue;
+//     transform: translateY(50%);
+//     left: .625rem;
+//     top: .625rem;
+//   }
+//   &--outline{
+//     background-color: none;
+//     border: .125rem solid $graphite-gray;
+//     height: 2.5rem;
+//     min-width: 11.25rem;
+//     max-width: 13.75rem;
+//     transform: translateY(-50%);
+//   }
+// }
