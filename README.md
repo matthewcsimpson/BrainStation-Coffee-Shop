@@ -1,5 +1,7 @@
-# brainstation-coffee-shop
+Matthew Simpson     
+Coffee Shop Project - BrainStation     
+July 2022
 
-Matthew Simpson / July 2022
+A simpel website for a coffee shop.  Buiitl as part of my studies at BrainStation. 
 
-I believe I have implemented everything from all 17 exercises, but i did not go back and re-factor my BEM code yet to swap snake case for kebab case.
+<img alt="Coffee Shop" src="https://github.com/user-attachments/assets/ab67b785-fd46-478b-bdc5-aa8653fc988e" />
